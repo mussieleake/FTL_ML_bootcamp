@@ -6,5 +6,5 @@ def count_vowels(strings: str) -> int:
     if char in vowels:
       count+=1
   return count
-word = "Mussie"
+word = input("Insert the word you want to count vowels: ")
 print(f"The word {word} has {count_vowels(word)} vowels in total.")
